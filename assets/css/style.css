@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0; }
+  *:focus {
+    outline: none; }
+
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; }
+
+#shortener {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/background-home.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 420px; }
+  #shortener h1 {
+    font-family: 'roboto slab';
+    text-align: center;
+    font-size: 30px;
+    color: #FBFDF7;
+    margin: 10px 0; }
+  #shortener p {
+    font-family: 'roboto';
+    text-align: center;
+    width: 500px;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 80px; }
+  #shortener .input-btn {
+    display: flex;
+    align-items: center; }
+    #shortener .input-btn .input {
+      margin: 0 10px;
+      border-bottom: 2px solid #FF6E16;
+      height: 40px;
+      width: 298px; }
+      #shortener .input-btn .input input {
+        border: none;
+        background-color: transparent;
+        font-size: 20px;
+        color: #FF6E16; }
+        #shortener .input-btn .input input::placeholder {
+          color: #FF6E16; }
+    #shortener .input-btn button {
+      border: none;
+      color: white;
+      padding: 15px;
+      background-color: orange;
+      font-family: 'roboto slab'; }
+
+.top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .top .links {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 15px 0; }
+    .top .links p:nth-child(1) {
+      font-size: 20px;
+      color: #aa1423;
+      font-family: 'roboto slab'; }
+    .top .links p:nth-child(2) {
+      font-size: 20px;
+      color: #777;
+      font-family: 'roboto slab'; }
+  .top h1 {
+    text-align: center;
+    font-family: 'roboto slab';
+    margin: 15px 0;
+    font-size: 30px;
+    color: #aa1423; }
+
+.hits {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 210px; }
+  .hits h1 {
+    text-align: center;
+    font-family: 'roboto';
+    margin: 15px 0;
+    font-size: 30px;
+    color: #aa1423; }
+  .hits input {
+    text-align: center;
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    color: #aa1423; }
+  .hits p {
+    color: #777;
+    font-size: 18px;
+    font-family: 'roboto slab';
+    margin: 10px 0; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 60px;
+  height: 80px; }
+  footer img {
+    width: 30px; }
+  footer p {
+    font-size: 25px;
+    color: #aa1423; }
+
+/*# sourceMappingURL=style.css.map */
